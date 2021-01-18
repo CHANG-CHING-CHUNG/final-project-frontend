@@ -30,8 +30,9 @@ jobs:
     - name: Deploy
       run: |
         git remote set-url origin https://${github_token}@github.com/${repository}
-        CI ="" npm run deploy
+        npm run deploy
       working-directory: ./hello-movie
       env:
         github_token: ${{ secrets.ACTION_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
+        CI: ""
