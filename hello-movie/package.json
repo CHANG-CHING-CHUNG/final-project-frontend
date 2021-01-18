@@ -34,7 +34,7 @@
       "prettier --write"
     ]
   },
-  "homepage": "https://teiekinei.github.io/final-project-frontend/",
+  "homepage": "https://chang-ching-chung.github.io/final-project-frontend/",
   "eslintConfig": {
     "extends": [
       "react-app",
